@@ -1,0 +1,402 @@
+
+
+html { 
+  background: url(../img/somback.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.wrap{
+
+}
+
+a{
+	text-decoration: none;
+	color: #008080;
+    transition-duration: 0.4s;
+    font-family: "Rockwell",sans-serif;
+}
+
+a:hover{
+
+	color: black;
+}
+
+.login{
+
+	margin: 5px;
+	float: right;
+	background-color: #4CAF50; 
+    border: 2px solid #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.login:hover {
+
+	background-color: transparent;
+	border: 2px solid #4CAF50;
+
+}
+
+.loginbar{
+
+	overflow: hidden;
+	width: 100%;
+	margin: auto;
+
+}
+
+.loginbar input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin: 5px;
+    padding: 6px;
+    transition: width 0.4s ease-in-out;
+    float: left;
+}
+
+.loginbar input[type=text]:focus {
+    width: 50%;
+}
+
+
+#homebtn{
+
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 30%;
+}
+
+#homebtn:hover{
+
+    background-color: black;
+
+} 
+
+#menubar ul{
+
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    margin-top: 20px;
+}
+
+#menubar li{
+
+	float: left;
+
+	
+}
+
+#menubar li a, .dropbtn {
+
+	display: block;
+	padding: 12px 16px;
+	text-decoration: none;
+	text-align: center;
+	/*color: white;*/
+    color: white;
+	font-size: 36px;
+	font-family: "Chiller";
+	min-height: 45px;
+}
+
+#menubar li a:hover,.dropdown:hover .dropbtn{
+    background-color: #111;
+    transition-duration: 0.4s;
+    color: white;
+}
+
+
+#menubar li.dropdown {
+    display: inline-block;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #6d081e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black !important; 
+    padding: 10px 16px !important;
+    text-decoration: none !important;
+    display: block !important;
+    text-align: left !important;
+    font-size: 25px !important;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1 !important}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+#gamename{
+
+	font-family: "Rockwell",sans-serif;
+	font-style: italic;
+}
+
+#add{
+
+	margin: 5px;
+	margin-bottom: 20px;
+	background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+
+#add:hover {
+
+	background-color: #999999;
+	color: white;
+
+}
+
+
+
+.slideshow{
+	width: 100%;
+	overflow: hidden;
+}
+
+.slideshow ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.slideshow li{
+
+	float: left;
+}
+
+
+.arrowbtnleft,.arrowbtnright{
+	margin-top: 150px;
+	padding: 10px;
+	margin-right: 5px;
+	background-color: black;
+	color: white;
+}
+
+.arrowbtnright{
+
+	margin-left: 5px;
+}
+
+.shortdes{
+	width: 45%;
+	float: right;
+}
+
+#recentup h2{
+
+	font-family: "Rockwell",sans-serif;
+	background-color: black;
+	color: white;
+}
+
+#recentup h1,#review h2,#about h2,.requirements h2,.cus_review h2{
+	font-family: "Rockwell",sans-serif;
+	text-align: center;
+	display: block;
+	background-color: black;
+	color: white;
+}
+
+.cus_review h3{
+
+	font-family: "Rockwell",sans-serif;
+}
+
+.requirements{
+
+    overflow: hidden;
+}
+
+.requirements h4{
+
+    font-family: "Rockwell",sans-serif;
+}
+
+.mini{
+
+    float: left;
+}
+
+.maxi{
+
+    float: right;
+}
+
+.cus_review input[type=text]{
+
+	width: 350px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    margin: 5px;
+    margin-left: 0px;
+    padding: 6px;
+    transition: width 0.4s ease-in-out;
+}
+
+.cus_review input[type=text]:focus{
+
+	width: 100%;
+}
+
+.cus_review input[type=submit]{
+	margin: 5px;
+	margin-bottom: 20px;
+	background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.cus_review input[type=submit]:hover{
+
+	background-color: #999999;
+	color: white;
+	
+}
+
+.rev{
+
+	overflow: hidden;
+	width: 40%;
+	margin: auto;
+}
+
+.rev ul{
+
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.rev li{
+
+	display: inline-block;
+	margin: 10px;
+}
+
+
+#hidit{
+
+    visibility: hidden;
+}
+
+#foot{
+
+    background-color: #808080;
+    overflow: hidden;
+}
+
+#foot ul{
+
+    list-style-type: none;
+}
+
+#foot li{
+    display: inline-block;
+}
+
+#foot li a{
+
+    color: black;
+    font-family: 'Lucida Handwriting';
+    text-decoration: none;
+    margin: 5px;
+    margin-right: 15px;
+
+}
+
+#foot li a:hover{
+
+    color: white;
+}
+
+#cpyright{
+
+    color: black;
+    font-size: 13px;
+    font-family: 'Arial Narrow';
+    float: right;
+}
+
+#footlogo{
+text-align:center;
+display:block;
+}
+
+.BtoT{
+
+    border: 2px solid black;
+    background-color: white;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 5px;
+    transition-duration: 0.4s;
+    font-family: 'Nueva Std',sans-serif;
+    font-size: 20px;
+
+}
+
+.BtoT:hover{
+
+    color: white;
+    background-color: black;
+}
